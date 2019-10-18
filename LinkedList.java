@@ -73,17 +73,7 @@ public class q4 {
 		}
 		return list;
 	}
-	public static void show(q4 list)
-	{
-		Node last = list.head;
-		while(last!=null)
-		{
-			System.out.println(last.data);
-			last = last.next;
-		}
-		
-	}
-
+	
 	public static void main(String[] args) {
 		q4 a = new q4();
 		
@@ -96,7 +86,7 @@ public class q4 {
 
 		rightdel(a);
 		
-		show(a);
+		
 		
 		 
 		// TODO Auto-generated method stub
